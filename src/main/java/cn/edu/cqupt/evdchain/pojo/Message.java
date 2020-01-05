@@ -11,11 +11,19 @@ public class Message {
         this.msg = msg;
     }
 
+    public Boolean getStatus() {
+        return status;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
     @Override
     public String toString() {
-        return "Message{" +
-                "status=" + status +
-                ", msg='" + msg + '\'' +
+        return "{" +
+                "\"status\":" + status +
+                ", \"msg\":\"" + msg + '\"' +
                 '}';
     }
 }
