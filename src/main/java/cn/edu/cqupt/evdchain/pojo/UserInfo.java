@@ -18,24 +18,11 @@ public class UserInfo {
 
     private Integer gender;
 
+    private String token;
+
     private Timestamp gmtCreated;
 
     private Timestamp gmtModified;
-
-    public UserInfo() {
-    }
-
-    public UserInfo(String id, String phone, String email, String idCard, String firstName, String lastName, Integer gender, Timestamp gmtCreated, Timestamp gmtModified) {
-        this.id = id;
-        this.phone = phone;
-        this.email = email;
-        this.idCard = idCard;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.gender = gender;
-        this.gmtCreated = gmtCreated;
-        this.gmtModified = gmtModified;
-    }
 
     public String getId() {
         return id;
@@ -93,6 +80,14 @@ public class UserInfo {
         this.gender = gender;
     }
 
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
     public Timestamp getGmtCreated() {
         return gmtCreated;
     }
@@ -107,20 +102,5 @@ public class UserInfo {
 
     public void setGmtModified(Timestamp gmtModified) {
         this.gmtModified = gmtModified;
-    }
-
-    @Override
-    public String toString() {
-        return "UserInfo{" +
-                "id='" + id + '\'' +
-                ", phone='" + phone + '\'' +
-                ", email='" + email + '\'' +
-                ", idCard='" + idCard + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", gender=" + gender +
-                ", gmtCreated=" + gmtCreated +
-                ", gmtModified=" + gmtModified +
-                '}';
     }
 }
