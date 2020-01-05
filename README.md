@@ -1,25 +1,28 @@
-# 证据链
+# EvdChain
 
-系统基于以太坊平台，利用区块链不可篡改的特性提供电子证据存证服务
+The system is based on the Ethereum platform and uses the non-tamperable characteristics of the blockchain to provide electronic evidence storage services
 
-## 系统功能
+[Simplified Chinese(简体中文)](README-zh.md)
 
-### 用户端
+## System functions
 
-- 用户注册，身份证号码 + 手机号/邮箱
+### User
 
-- 用户登录，身份证号码 + 手机号/邮箱
+- User registration, ID number + mobile phone number / email
 
-- 电子存证，证据格式支持word、pdf、jpg、png、mp3
+- User login, ID number + mobile phone number / email
 
-- 电子取证（下载本人上传的证据）
+- Electronic certificate, evidence format supports word, pdf, jpg, png, mp3
 
-## 管理员
+- Electronic forensics (download the evidence user uploaded)
 
-- 审核证据真实性
+## Administrator
+
+- Audit evidence authenticity
 
 
-### 超级管理员（内置）
+### Super Administrator (Built-in)
 
-- 创建管理员账号
+- Create an administrator account
+
 
