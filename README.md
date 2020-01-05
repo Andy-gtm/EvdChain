@@ -1,8 +1,8 @@
 # EvdChain
 
-The system is based on the Ethereum platform and uses the non-tamperable characteristics of the blockchain to provide electronic evidence storage services
-
 [Simplified Chinese(简体中文)](README-zh.md)
+
+The system is based on the Ethereum platform and uses the non-tamperable characteristics of the blockchain to provide electronic evidence storage services
 
 ## System functions
 
